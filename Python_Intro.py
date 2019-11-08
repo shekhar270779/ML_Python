@@ -11,3 +11,7 @@ print(local_time)
 # adding additional time commands
 tm = time.localtime(seconds)
 print(tm.tm_year)
+
+# get gmt time
+gmt_tm = time.gmtime(seconds)
+print(f"{gmt_tm.tm_hour}:{gmt_tm.tm_min}:{gmt_tm.tm_sec}")
