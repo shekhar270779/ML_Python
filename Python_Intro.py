@@ -11,3 +11,6 @@ print(local_time)
 # adding additional time commands
 tm = time.localtime(seconds)
 print(tm.tm_year)
+
+
+print(time.asctime()) # returns current time
