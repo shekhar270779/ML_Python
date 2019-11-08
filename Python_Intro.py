@@ -14,3 +14,7 @@ print(tm.tm_year)
 
 
 print(time.asctime()) # returns current time
+
+print("time to sleep")
+time.sleep(5)
+print("wakeup")
